@@ -1,0 +1,45 @@
+body{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-image: url("Hraci/freeze-pozadí.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.table-container {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 20px;
+  box-shadow: 0 0 25px rgba(0,0,0,0.5);
+  color:white;
+}
+
+.image-box img {
+  height: 600px;
+  width: auto;
+  border-radius: 12px;
+  box-shadow: 0 0 12px #1a1a40;
+}
+
+.info-table {
+  width: 300px;
+  background-color: #87cefa;
+  color: #00072d;
+  border-collapse: collapse;
+  font-size: 18px;
+  text-align: left;
+  border: 2px solid #fff;
+}
+
+.info-table td {
+  padding: 10px;
+  border: 1px solid #444;
+}

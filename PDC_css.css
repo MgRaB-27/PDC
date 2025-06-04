@@ -1,0 +1,206 @@
+  body {
+  font-family: faktos, sans-serif; 
+  text-align: center;
+  background-color:darkblue;
+  color:white;
+   }
+        nav a { 
+        margin: 10px; 
+        text-decoration: none; 
+        font-size: 18px; 
+        }
+        .content { 
+        display: none; 
+        padding: 20px;
+         }
+        .active { display: block; }
+footer{
+background-color: #00072d;
+color: white;
+      text-align: center;
+      padding: 40px 20px;
+} 
+.full-link {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: inherit;
+}
+
+       
+.zebricek1 {
+    width: 80%; 
+    height: 700px;  
+    vertical-align: middle;
+    }
+.zebricek2 {
+    width: 25%; 
+    height: 100px;
+    background-color:#00072d;
+    vertical-align: middle;
+       }
+.zebricek02 {
+    width: 25%; 
+    height: 100px;
+    vertical-align: middle;
+       }       
+       
+        .zebricek-nadpis{
+        background-color:Blue;    
+        color:white; 
+        }
+.zoom:hover{
+       width: 23%;
+       height: 23%;
+    }        
+.zebricekup{
+background-color:lightgreen;
+color:black;
+}
+.zebricekdown{
+background-color:red;
+color:black;
+}
+.clanky1{
+    
+        color:white;
+        padding: 40px;
+        margin: 0px;
+        font-size: 70px;
+        text-align: center;
+}
+.clanky2{
+    
+        color:white;
+        padding: 40px;
+        margin: 0px;
+        font-size: 180px;
+        text-align: center;
+}
+.umisteni1{
+background-color:grey
+;
+}
+.druhyradek{
+background-color:#D3D3D3;
+color:black;
+;
+}
+.druhyradek1{
+background-color:grey;
+color:white;
+;
+}
+.stalehraje{
+background-color:lightblue;
+}
+.aktualnikolo{
+border:3px solid black;
+}
+td{
+font-size: 22px;
+}
+li{
+font-size: 40px;
+}
+ul{
+font-size: 60px;
+}
+h1{
+font-family: Poppins, sans-serif;
+  font-weight: bold;
+}
+nav {
+            background-color: #00072d;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            margin: 0 15px;
+            padding: 10px;
+        }
+        nav a:hover {
+            background-color: darkred;
+            border-radius: 5px;
+        }
+        /* Obsah stranky */
+        .content {
+            display: none;
+            padding: 20px;
+        }
+        .active {
+            display:block;
+        }
+ /* Hlavní menu */
+nav .menu {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.menu li {
+  position: relative;
+}
+
+.menu a {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: white;
+}
+
+p {
+    margin-bottom: 20px; /* Vìtší mezera pod odstavcem */
+}
+
+/* Dropdown menu - schované ve výchozím stavu */
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: red;
+  list-style: none;
+  padding: 0;
+  min-width: 200px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  z-index: 1000; /* Prida vrstveni, aby dropdown nelezl pod tabulky */
+}
+
+.dropdown-menu li {
+  width: 100%;
+}
+
+.dropdown-menu a {
+  display: block;
+  padding: 10px;
+  text-align: left;
+}
+
+/* Když najedu myší na "Hráèi", zobrazí se menu */
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+
+
+.container {
+  display: flex;
+  align-items: center; /* Zarovná obsah na støed vertikálnì */
+  justify-content: space-between; /* Mezera mezi textem a tabulkou */
+}
+
+.text {
+  width: 40%; /* Šíøka textu */
+  padding: 20px;
+}
+
+.table {
+  width: 55%; /* Šíøka tabulky */
+}
+/* CSS Document */
